@@ -1,0 +1,153 @@
+/* Background & Text */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1e1e1e, #2a3b59);
+  color: #fff;
+}
+
+/* Hero Section */
+.hero-banner {
+  background: linear-gradient(to right, #1e1e1e, #2a3b59);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Homepage Container */
+.homepage-container {
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* NFT Grid */
+.nft-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nft-card {
+  background-color: #292d3e;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.nft-card:hover {
+  transform: scale(1.03);
+}
+
+.nft-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.nft-card h4 {
+  margin: 0.8rem 1rem 0 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nft-card p {
+  margin: 0.4rem 1rem;
+  color: #ccc;
+}
+
+.nft-price {
+  display: block;
+  margin: 0.6rem 1rem 1rem;
+  font-weight: bold;
+  color: #7ee787;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #2a3b59;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.cta-section p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.cta-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #7ee787;
+  color: #1e1e1e;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #6bd376;
+}
+
+/* Key Features */
+.key-features {
+  padding: 2rem;
+  background-color: #1e1e1e;
+  text-align: center;
+}
+
+.key-features h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feature-tag {
+  background-color: #292d3e;
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  color: #7ee787;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.feature-tag:hover {
+  transform: scale(1.05);
+}

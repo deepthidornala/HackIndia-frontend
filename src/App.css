@@ -1,0 +1,149 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #0f0f1e, #1a1a2e);
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #2a2a3c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0fffc1;
+  text-shadow: 0 0 10px #0fffc1;
+}
+
+.navbar-links a {
+  margin: 0 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #0fffc1;
+  text-shadow: 0 0 5px #0fffc1;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  background-image: url('/assets/hero_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #0fffc1;
+  text-shadow: 0 0 10px #0fffc1;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.hero-button {
+  padding: 15px 30px;
+  background-color: #0fffc1;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #0fffc1;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+}
+
+/* Featured Artworks */
+.featured {
+  padding: 60px;
+  background: #121221;
+}
+
+.featured h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #0fffc1;
+  margin-bottom: 40px;
+  text-shadow: 0 0 8px #0fffc1;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.art-card {
+  background: #1c1c2b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.art-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.4);
+}
+
+.art-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.art-card-info {
+  padding: 20px;
+}
+
+.art-card-info h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.art-card-info p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #0a0a17;
+  color: #666;
+  font-size: 14px;
+}
