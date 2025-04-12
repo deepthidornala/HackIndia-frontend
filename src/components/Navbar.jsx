@@ -9,7 +9,6 @@ const Navbar = () => {
       <div className="flex-none space-x-4">
         <Link to="/marketplace" className="btn btn-ghost text-white">Marketplace</Link>
         <Link to="/initiate" className="btn btn-ghost text-white">Initiate My NFT</Link>
-        <Link to="/login" className="btn btn-ghost text-white">Login</Link>
       </div>
     </nav>
   );
